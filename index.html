@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
 
-    <title>Image gallery</title>
+<head>
+  <meta charset="utf-8">
 
-    <link rel="stylesheet" href="style.css">
-    
-  </head>
+  <title>Image gallery</title>
 
-  <body>
-    <h1>Image gallery example</h1>
+  <link rel="stylesheet" href="style.css">
 
-    <div class="full-img">
-      <img class="displayed-img" src="img/pic1.jpg" alt="Closeup of a human eye">
-      <div class="overlay"></div>
-      <button class="dark">Darken</button>
+</head>
+
+<body>
+  <button class="p1" style="position: inherit;left: 15px;top: 15px ">Player1</button>
+  <button class="p2" style="position: inherit;right: 15px;top: 15px ;float:right;">Player2</button>
+  <h1>Image gallery example</h1>
+
+  <div class="full-img">
+    <img class="displayed-img" src="img/pic1.jpg" alt="Closeup of a human eye">
+    <div class="overlay"></div>
+    <button id="tint1" class="dark">Darken</button>
+  </div>
+
+  <aside>
+    <div class="full-img2">
+      <img class="displayed-img2" src="img/pic1.jpg" alt="Closeup of a human eye">
+      <div class="overlay2"></div>
+      <button id="tint2" class="dark">Darken</button>
     </div>
+  </aside>
 
-    <div class="thumb-bar">
+  <div class="thumb-bar"></div>
+  <div class="thumb-bar2"></div>
+  <script src="script.js"></script>
+</body>
 
-    </div>
-
-    <!-- <div class="full-img">
-      <img class="displayed-img" src="img/pic1.jpg" alt="Closeup of a human eye">
-      <div class="overlay"></div>
-      <button class="dark">Darken</button>
-    </div>
-
-    <div class="thumb-bar">
-    </div> -->
-    <script src="script.js"></script>
-  </body>
 </html>

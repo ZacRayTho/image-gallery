@@ -4,20 +4,20 @@ h1 {
   }
   
   body {
-    width: 640px;
+    width: 1280px;
     margin: 0 auto;
   }
   
   .full-img {
     position: relative;
-    display: block;
-    width: 640px;
+    display: inline;
+    width: 50%;
     height: 480px;
   }
   
   .overlay {
     position: absolute;
-    top: 0;
+    top: -465px;
     left: 0;
     width: 640px;
     height: 480px;
@@ -35,9 +35,17 @@ h1 {
     left: 2px;
   }
   
+  .thumb-bar {
+    width: 50%;
+  }
   .thumb-bar img {
     display: block;
     width: 20%;
     float: left;
     cursor: pointer;
+  }
+
+  aside {
+    float: right;
+    
   }
